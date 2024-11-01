@@ -1,0 +1,213 @@
+/*
+*
+* font-family: 'Open Sans', sans-serif;
+*
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+.single_filed label, .sub-text label {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.input-field {
+    width: 44%;
+}
+
+.input-field input[type="text"], textarea {
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.single_filed_wrap .sub-text input[type="text"] {
+    width: 91.5%;
+}
+
+.single_filed_wrap .single_filed {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.single_filed_wrap {
+    box-shadow: 0px 0px 6px 2px #ddd;
+    padding: 16px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-top: 40px;
+    position: relative;
+}
+
+#remove_btn{
+    float: right;
+    display: block;
+    background:#DA0B0B;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    /* margin-top: 20px; */
+    outline: none;
+
+    /* background: #DA0B0B;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    outline: none;
+    position: absolute;
+    top: 12px;
+    right: 18px; */
+
+}
+
+.remove-btn i {
+    font-family: 'FontAwesome';
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.action div {
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    min-height: 40px;
+}
+
+.action a {
+    background: #625df5;
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 15px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.remove-action a {
+    background:   #da0b0b;
+}
+
+.shortcode_field input[type="text"] {
+    width: 100%;
+    outline: none;
+    padding: 14px 10px;
+    background: #eee;
+    border-radius: 5px;
+    min-height: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #777;
+}
+
+
+.skill_settings_options ul li {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+    min-height: 65px;
+}
+
+.skill_settings_options {
+    display: block;
+    overflow: hidden;
+}
+
+.skill_settings_options ul {
+    display: block;
+    overflow: hidden;
+}
+
+.skill_settings_options ul li label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #666;
+    display: block;
+    margin-bottom: 6px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.skill_settings_options .wp-picker-holder {
+    position: absolute;
+
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+
+	.skill_settings_options ul li {
+        width:50% !important;
+    }
+
+    .input-field {
+        width: 35% !important;
+    }
+
+    .action a{
+        font-size: 20px !important;
+    }
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .skill_settings_options ul li {
+        width:50% !important;
+    }
+
+    .input-field {
+        width: 40% !important;
+    }
+
+    .action a{
+        font-size: 30px !important;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .skill_settings_options ul li {
+        width:50% !important;
+    }
+
+    .input-field {
+        width: 40% !important;
+    }
+
+    .action a{
+        font-size: 30px !important;
+    }
+
+}
+
+@media only screen and ( min-width: 992px) and (max-width: 1200px) {
+
+    .skill_settings_options ul li {
+        width:50% !important;
+    }
+
+}

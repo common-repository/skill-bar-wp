@@ -1,0 +1,106 @@
+/*
+*
+* font-family: 'Open Sans', sans-serif;
+*
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+.skill-block h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.single-item {
+    margin-bottom: 30px;
+
+}
+
+.sub_text p {
+    padding-top: 5px;
+    font-size: 15px;
+    color: #a7a6b6;
+    font-weight: 300;
+
+}
+
+.skill-item {
+    background: #eee;
+    display: flex;
+    height: 8px;
+    font-size: 12px;
+    border-radius: 0.25rem;
+}
+
+.skill-percentage {
+    background: #625df5;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    padding: 0px 8px;
+    position: relative;
+    border-radius: 0.25rem;
+    transition: .3s linear 0s;
+    position: relative;
+
+}
+
+.skill-percentage:before {
+    content: "";
+    position: absolute;
+    right: -8px;
+    border: 2px solid #625df5;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: -1px;
+}
+
+.skill-percentage span {
+    background: #625df5;
+    position: absolute;
+    right: -20px;
+    font-size: 12px;
+    top: -40px;
+    border-radius: 4px;
+    padding: 2px 7px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+
+}
+
+.skill-percentage span:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: #625df5;
+    bottom: -4px;
+    transform: rotate(45deg);
+}
+
+.skill-percentage span label {
+    margin-left: 2px;
+    font-size: 13px;
+    margin-bottom: 0;
+    
+}
+
+  .skill-percentage{
+    width: 0;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -ms-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+}
